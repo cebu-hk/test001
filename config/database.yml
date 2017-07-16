@@ -4,7 +4,7 @@ default: &default
   pool: 5
   username: ubuntu
   password: Koyo1144
-
+#  password: password
 development:
   <<: *default
   database: hellowolrd_development
